@@ -10,7 +10,7 @@ class Solution:
             else:
                 if c == 0:  # if consecutive star counted prior to current letter is 0
                     ans += s[i]
-                else:       # if consecutive stars appeared previously
+                else:       # if consecutive star counted prior to current letter is bigger than 0
                     c -= 1
             i -= 1
 
